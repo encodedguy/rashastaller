@@ -8,7 +8,7 @@ sudo apt-get install brutespray masscan -y 1> /dev/null
 sudo apt-get install whois dnsutils -y 1> /dev/null
 sudo apt-get install httprobe httpx-y 1> /dev/null
 sudo apt-get install exiftool binwalk exif exiv2 -y 1 >/dev/null
-sudo apt-get install gobuster -y 1> /dev/null
+sudo apt-get install gobuster dirbuster dirb -y 1> /dev/null
 
 sudo apt install -y docker.io -y 1> /dev/null
 sudo systemctl enable docker --now
