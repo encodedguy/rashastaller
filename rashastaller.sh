@@ -2,7 +2,7 @@
 #! /bin/bash
 
 sudo apt-get install golang -y 1> /dev/null
-sudo apt-get install terminator vim -y 1> /dev/null
+sudo apt-get install terminator vim parallel-y 1> /dev/null
 sudo apt-get install amass subfinder assetfinder -y 1> /dev/null
 sudo apt-get install brutespray masscan -y 1> /dev/null
 sudo apt-get install whois dnsutils -y 1> /dev/null
